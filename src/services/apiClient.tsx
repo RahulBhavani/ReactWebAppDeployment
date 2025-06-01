@@ -2,7 +2,7 @@
 import axios from 'axios';
 import type { AxiosInstance, InternalAxiosRequestConfig, AxiosResponse, AxiosError } from 'axios';
 
-const API_BASE_URL = 'http://localhost:8282'; // <-- IMPORTANT: SET YOUR API BASE URL HERE
+const API_BASE_URL = 'https://c6a1-123-201-29-138.ngrok-free.app'; // <-- IMPORTANT: SET YOUR API BASE URL HERE
 
 const apiClient: AxiosInstance = axios.create({
   baseURL: API_BASE_URL,
